@@ -1,0 +1,19 @@
+Navigasi Folder
+- cd C:\path\<folder-tujuan> : Ganti direktori
+- cd .. : Naik ke direktori parent
+
+Menampilkan Isi Direktori
+- ls : Menampilkan isi direktori saat ini
+- ls -l : Menampilkan isi direktori dengan detail
+
+Membuat dan Menghapus Direktori
+- mkdir C:\path\<nama-folder> : Membuat Direktori
+- rmdir C:\path\<folder> : Menghapus Direktori Kosong
+- rm C:\path\<folder> -Recurse -Force : Menghapus Direktori dan Isinya
+
+Manipulasi File
+- cp C:\path\<folder-awal>\<nama-file-dan-ekstensi> C:\path\<folder-tujuan> : Menyalin File atau Folder
+- mv C:\path\<folder-awal>\<nama-file-dan-ekstensi> C:\path\<folder-tujuan>: Memindahkan File atau Folder
+- del C:\path\<folder-awal>\<nama-file-dan-ekstensi> : Menghapus File
+- rm C:\path\<folder-awal>\<nama-file-dan-ekstensi> : Menghapus File
+- ren C:\path\<folder-awal>\<nama-file-lama-dan-ekstensi> <nama-file-baru-dan-ekstensi> : Mengganti Nama File atau Folder
