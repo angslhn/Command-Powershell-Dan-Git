@@ -24,6 +24,7 @@ Remote Repository
 - git fetch <nama-remote>: Mengunduh objek dan referensi dari remote repository. Ini tidak menggabungkan perubahan ke working directory Anda.
 - git pull <nama-remote> <branch>: Mengambil perubahan dari remote repository dan langsung menggabungkannya ke branch lokal Anda.
 - git push <nama-remote> <branch>: Mengirimkan perubahan dari branch lokal Anda ke branch di remote repository.
+- git push -u <nama-remote> <nama-branch>: Mengirimkan file dari directory lokal ke server dengan men-setting upstream.
 
 Lanjutan dan Utilities
 - git stash: Menyimpan perubahan yang belum di-commit di tempat yang aman tanpa melakukan commit.
