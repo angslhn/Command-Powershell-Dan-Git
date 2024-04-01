@@ -1,0 +1,40 @@
+Dasar
+- git init: Membuat repository Git baru. Jika dijalankan dalam direktori yang sudah ada, perintah ini akan menginisialisasi direktori tersebut sebagai repository Git. Jika dijalankan dalam direktori baru, perintah ini akan membuat direktori tersebut dan menginisialisasinya sebagai repository Git.
+- git clone <url>: Mengkloning repository dari URL yang diberikan. Perintah ini membuat salinan lokal dari repository yang ada di server.
+- git add <file/directory>: Menambahkan file atau direktori ke staging area. Ini menyiapkan file tersebut untuk di-commit.
+- git add . <file/directory>: Menambahkan semua file atau direktori ke staging area.
+- git commit -m "pesan commit": Melakukan commit pada perubahan yang ada di staging area dengan pesan commit yang diberikan.
+- git commit -am "pesan commit": Menambahkan commit pada perubahan yang terjadi beserta menambahkannya ke staging area dengan pesan commit yang diberikan
+- git status: Menampilkan status dari working directory dan staging area. Menunjukkan file yang berubah, file yang belum di-add, dan file yang siap untuk di-commit.
+- git log: Menampilkan log dari commit yang telah dilakukan, termasuk penulis, tanggal, dan pesan commit.
+- git checkout <7 hash pertama pada commit>: Fungsi untuk kembali atau mundur ke commit sebelumnya.
+
+Bekerja dengan Branch
+- git branch: Menampilkan daftar semua branch lokal. Dengan opsi tambahan, Anda dapat membuat atau menghapus branch.
+- git branch <nama-branch>: Membuat branch baru.
+- git branch -d <nama-branch>: Menghapus salah satu branch yang sudah merge dan tidak digunakan.
+- git branch -D <nama-branch>: Menghapus salah satu branch yang belum di merged tidak digunakan.
+- git branch --merged: Melihat branch mana yang telah digabungkan.
+- git checkout <nama-branch>: Berpindah ke branch yang ditentukan. Juga dapat digunakan untuk checkout file atau commit.
+- git merge <nama-branch>: Menggabungkan perubahan dari branch yang ditentukan ke branch saat ini. Git akan mencoba melakukan merge secara otomatis, tetapi mungkin memerlukan resolusi konflik secara manual.
+
+Remote Repository
+- git remote add <nama-remote> <url>: Menambahkan remote repository. Ini memungkinkan Anda untuk merujuk repository pada URL dengan nama yang didefinisikan.
+- git remote -v: Melihat semua remote yang tersedia.
+- git fetch <nama-remote>: Mengunduh objek dan referensi dari remote repository. Ini tidak menggabungkan perubahan ke working directory Anda.
+- git pull <nama-remote> <branch>: Mengambil perubahan dari remote repository dan langsung menggabungkannya ke branch lokal Anda.
+- git push <nama-remote> <branch>: Mengirimkan perubahan dari branch lokal Anda ke branch di remote repository.
+
+Lanjutan dan Utilities
+- git stash: Menyimpan perubahan yang belum di-commit di tempat yang aman tanpa melakukan commit.
+- git rebase <branch>: Mengaplikasikan perubahan dari branch saat ini ke atas branch yang ditentukan. Ini berguna untuk menjaga sejarah commit tetap bersih.
+- git reset: Mengembalikan staging area ke keadaan sebelumnya. Bergantung pada flag yang digunakan (--soft, --mixed, --hard), perintah ini dapat mengubah working directory, staging area, dan history commit.
+- git config: Digunakan untuk mengatur konfigurasi Git pada berbagai level (global, user, project). Misalnya, untuk mengatur email dan nama pengguna.
+
+Menangani Konflik
+- git diff: Menampilkan perbedaan antara commits, commit dan working directory, dll. Sangat berguna untuk melihat perubahan sebelum melakukan commit.
+- git merge --abort: Jika terjadi konflik merge, perintah ini membatalkan proses merge dan kembali ke keadaan sebelum merge.
+
+Lain-lain
+- git help <command>: Menampilkan dokumentasi bantuan untuk perintah Git yang ditentukan.
+- alias graph="git log --all --decorate --oneline --graph": fungsi alias melihat graph yang lebih detail. 
