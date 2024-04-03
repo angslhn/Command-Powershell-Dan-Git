@@ -21,7 +21,7 @@ Bekerja dengan Branch
 Remote Repository
 - git remote add <nama-remote> <url>: Menambahkan remote repository. Ini memungkinkan Anda untuk merujuk repository pada URL dengan nama yang didefinisikan.
 - git remote -v: Melihat semua remote yang tersedia.
-- git fetch <nama-remote>: Mengunduh objek dan referensi dari remote repository. Ini tidak menggabungkan perubahan ke working directory Anda.
+- git fetch <nama-remote>: Mengunduh objek dan referensi atau mengecek perubahan dari remote repository. Ini tidak menggabungkan perubahan ke working directory Anda.
 - git pull <nama-remote> <branch>: Mengambil perubahan dari remote repository dan langsung menggabungkannya ke branch lokal Anda.
 - git push <nama-remote> <branch>: Mengirimkan perubahan dari branch lokal Anda ke branch di remote repository.
 - git push -u <nama-remote> <nama-branch>: Mengirimkan file dari directory lokal ke server dengan men-setting upstream.
