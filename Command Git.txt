@@ -17,6 +17,7 @@ Bekerja dengan Branch
 - git branch --merged: Melihat branch mana yang telah digabungkan.
 - git checkout <nama-branch>: Berpindah ke branch yang ditentukan. Juga dapat digunakan untuk checkout file atau commit.
 - git merge <nama-branch>: Menggabungkan perubahan dari branch yang ditentukan ke branch saat ini. Git akan mencoba melakukan merge secara otomatis, tetapi mungkin memerlukan resolusi konflik secara manual.
+- git merge <nama-remote>/<nama-branch>: Menggabungkan perubahan yang ada pada branch tertentu dari remote repository ke dalam branch saat ini yang aktif di local repository kamu.
 
 Remote Repository
 - git remote add <nama-remote> <url>: Menambahkan remote repository. Ini memungkinkan Anda untuk merujuk repository pada URL dengan nama yang didefinisikan.
