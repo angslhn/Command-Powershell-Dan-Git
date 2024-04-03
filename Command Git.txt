@@ -26,6 +26,7 @@ Remote Repository
 - git pull <nama-remote> <branch>: Mengambil perubahan dari remote repository dan langsung menggabungkannya ke branch lokal Anda.
 - git push <nama-remote> <branch>: Mengirimkan perubahan dari branch lokal Anda ke branch di remote repository.
 - git push -u <nama-remote> <nama-branch>: Mengirimkan file dari directory lokal ke server dengan men-setting upstream.
+- git push <nama-remote> --delete <nama-branch>: Menghapus sebuah branch dari remote repository. Ini efektif digunakan ketika kamu ingin membersihkan branch yang sudah tidak dibutuhkan lagi.
 
 Lanjutan dan Utilities
 - git stash: Menyimpan perubahan yang belum di-commit di tempat yang aman tanpa melakukan commit.
