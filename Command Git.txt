@@ -34,6 +34,7 @@ Lanjutan dan Utilities
 - git rebase <branch>: Mengaplikasikan perubahan dari branch saat ini ke atas branch yang ditentukan. Ini berguna untuk menjaga sejarah commit tetap bersih.
 - git rebase -i HEAD~11: Membuka editor teks yang menampilkan daftar 11 commit terakhir.
 - git reset: Mengembalikan staging area ke keadaan sebelumnya. Bergantung pada flag yang digunakan (--soft, --mixed, --hard), perintah ini dapat mengubah working directory, staging area, dan history commit.
+- git reset --hard HEAD~1 Menghapus commit sekarang dan kembali ke commit sebelumnya, namun ketika push harus menggunakan <nama-branch> --force agar bisa dilakukan.
 - git config: Digunakan untuk mengatur konfigurasi Git pada berbagai level (global, user, project). Misalnya, untuk mengatur email dan nama pengguna.
 
 Menangani Konflik
