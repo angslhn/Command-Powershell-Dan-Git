@@ -17,3 +17,8 @@ Manipulasi File
 - del C:\path\<folder-awal>\<nama-file-dan-ekstensi> : Menghapus File
 - rm C:\path\<folder-awal>\<nama-file-dan-ekstensi> : Menghapus File
 - ren C:\path\<folder-awal>\<nama-file-lama-dan-ekstensi> <nama-file-baru-dan-ekstensi> : Mengganti Nama File atau Folder
+
+Jaringan
+- ipconfig : Melihat Configurasi Jaringan
+- ipconfig all/ : Melihat alamat IP lengkap dengan DNS
+- netstat -an : Melihat Port yang Terbuka
